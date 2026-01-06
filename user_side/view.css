@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+    list-style: none;
+    height: auto;
+}
+.main li{
+	display:block;
+	padding: 20px;
+	font-size: 20px;
+  height: auto;
+}
+.main li a{
+	color:#070405;
+    text-decoration: none;
+}
+.main li a:hover{
+	color:#006BC3;
+  height: auto;
+}
+.extra{
+  background-color: white;
+  box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+  margin-left:150px;
+  margin-top: -81px;
+	position:absolute;
+	display:none;}
+.extra li{
+	display:block;
+}
+.extra li:hover{
+	overflow: inherit;
+}
+.main :hover .extra{
+	display:block;
+	overflow: inherit
+}
+
+
+
+
+
+
